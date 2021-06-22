@@ -10,6 +10,14 @@
   background-attachment: fixed;
   overflow: hidden;
   }
+  /*styling for the team logo in the nabigaion bar*/
+  #logo-nav{
+    float: left;
+    height: 50px;
+    width: 75px;
+    margin-left: -20px;
+    margin-right: -30px;
+  }
   
   #dropdownannoying{
     visibility: hidden;
