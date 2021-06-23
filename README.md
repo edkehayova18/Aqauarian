@@ -1,1 +1,1 @@
-# Aqauarian
+# Aquarian
