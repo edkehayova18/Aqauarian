@@ -73,7 +73,7 @@
     text-shadow: 2px 2px grey;
   }
 
-  /*Download page CSS*/
+  /*Download Page CSS*/
   #div-download{
     background-color: rgba(102, 179, 255, 0.8);
     width: 60%;
@@ -87,3 +87,4 @@
     height: 500px;
     width: 500px;
   }
+  /*About Us CSS*/
