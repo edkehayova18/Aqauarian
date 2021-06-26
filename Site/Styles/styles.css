@@ -88,6 +88,7 @@
     width: 500px;
   }
   /*About Us CSS*/
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
@@ -126,19 +127,19 @@
   }
   
   .button {
-    border: none;
+    border: solid lightskyblue;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: lightseagreen;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: cornflowerblue;
   }
   
   @media screen and (max-width: 650px) {
@@ -146,4 +147,7 @@
       width: 100%;
       display: block;
     }
+  }
+  body{
+    overflow: auto;
   }
