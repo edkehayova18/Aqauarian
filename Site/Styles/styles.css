@@ -1,41 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
 
-/*Home page CSS*/
-
-  /*this is for the index page background*/
-body {
-  background-image: url("../Images/new-index-background.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: auto;
-}
-
-  /*formatting for the team name*/
-#teamname{
-  text-align: center;
-  font-size: 169px;
-  font-family: 'Roboto Mono', monospace;
-  color: aquamarine;
-  position: relative;
-  bottom: -300px;
-  margin-right: 40px;
-  float:right;
-  }
-
-  /*styling for the team logo in the nabigaion bar*/
-  #logo-nav{
-    float: left;
-    height: 50px;
-    width: 75px;
-    padding-top: 10px;
-    margin-left: -35px;
-    margin-right: -20px;
-  }
-  
-  /*navbar styling*/
+/*navbar styling*/
   #navbar{
     margin-top: -27px;
     margin-left: -8px;
@@ -72,6 +39,42 @@ body {
     color:pink;
     text-shadow: 2px 2px grey;
   }
+
+/*Home page CSS*/
+
+  /*this is for the index page background*/
+body {
+  background-image: url("../Images/new-index-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: auto;
+}
+
+  /*formatting for the team name*/
+#teamname{
+  text-align: center;
+  font-size: 169px;
+  font-family: 'Roboto Mono', monospace;
+  color: aquamarine;
+  position: relative;
+  bottom: -300px;
+  margin-right: 40px;
+  float:right;
+  }
+
+  /*styling for the team logo in the nabigaion bar*/
+  #logo-nav{
+    float: left;
+    height: 50px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: -35px;
+    margin-right: -20px;
+  }
+  
+
 
   /*Download Page CSS*/
   #div-download{
@@ -114,12 +117,7 @@ body {
     color: grey;
   }
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
+
   html {
     box-sizing: border-box;
   }
@@ -131,3 +129,18 @@ body {
   #Emily-container{
     float:right;
   }
+  #our-team-body{
+    font-family: 'Source Code Pro', monospace;
+  }
+  
+  @media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block; 
+  }
+  #navbar-list{
+    display: inline-block;
+    text-align: center;
+    width: 105%;
+  }
+}
