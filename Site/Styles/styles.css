@@ -7,7 +7,7 @@
     margin-top: -27px;
     margin-left: -8px;
   }
-  #navbar-list{
+  #navbar_list{
     display: inline-flex;
     list-style-type: none;
     background-color: rgb(54, 54, 54);
@@ -17,25 +17,25 @@
     font-size: 14pt;
     
   }
-  .navbar-item{
+  .navbar_item{
     margin-right: 10px;
     display: block;
     padding: 20px;
     font-family: 'Noto Sans JP', sans-serif;
   }
-  a.navbar-item{
+  a.navbar_item{
     text-decoration: none;
   }
-  a.navbar-item:active{
+  a.navbar_item:active{
     color:cadetblue;
   }
-  a.navbar-item:link{
+  a.navbar_item:link{
     color:darkcyan;
   }
-  a.navbar-item:visited{
+  a.navbar_item:visited{
     color:cyan;
   }
-  a.navbar-item:hover{
+  a.navbar_item:hover{
     color:pink;
     text-shadow: 2px 2px grey;
   }
@@ -65,7 +65,7 @@ body {
   }
 
   /*styling for the team logo in the nabigaion bar*/
-  #logo-nav{
+  #logo_nav{
     float: left;
     height: 50px;
     width: 75px;
@@ -77,75 +77,16 @@ body {
 
 
   /*Download Page CSS*/
-  #div-download{
+  #div_download{
     background-color: rgba(102, 179, 255, 0.8);
     width: 60%;
     height: 100vh;
     margin: 0 auto;
     /*margin: 0 auto; makes the <div> tag centered*/
   }
-  #game-image{
+  #game_image{
     display: block;
     margin:auto;
     height: 500px;
     width: 500px;
-  }
-  /*About Us CSS*/
-  .column {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
-  
-  .card {
-    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.4);
-    margin: 8px;
-  }
-  
-  .container {
-    padding: 0 16px;
-    background-color: rgb(255, 255, 255, 0.9);
-  }
-  
-  .container::after, .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  .title {
-    color: grey;
-  }
-  
-
-  html {
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-
-  #Emily-container{
-    float:right;
-  }
-  #our-team-body{
-    font-family: 'Source Code Pro', monospace;
-  }
-  
-  @media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block; 
-  }
-  #navbar-list{
-    display: inline-block;
-    text-align: center;
-    width: 105%;
-  }
-  .team-photos{
-    width: 300px;
-    height: 300px;
-  }
   }
