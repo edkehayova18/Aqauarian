@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+/*Home page CSS*/
+
+  /*this is for the index page background*/
+#index_body{
+  background-image: url("../Images/new-index-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  }
+
+  /*formatting for the team name*/
+#teamname{
+  text-align: center;
+  font-size: 169px;
+  font-family: 'Roboto Mono', monospace;
+  color: aquamarine;
+  position: relative;
+  bottom: -300px;
+  margin-right: 40px;
+  float:right;
+  }
+
+  /*styling for the team logo in the nabigaion bar*/
+  #logo-nav{
+    float: left;
+    height: 50px;
+    width: 75px;
+    padding-top: 10px;
+    margin-left: -35px;
+    margin-right: -20px;
+  }
+  
+  /*navbar styling*/
+  #navbar{
+    margin-top: -27px;
+    margin-left: -8px;
+  }
+  #navbar-list{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 14pt;
+    
+  }
+  .navbar-item{
+    margin-right: 10px;
+    display: block;
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  a.navbar-item{
+    text-decoration: none;
+  }
+  a.navbar-item:active{
+    color:cadetblue;
+  }
+  a.navbar-item:link{
+    color:darkcyan;
+  }
+  a.navbar-item:visited{
+    color:cyan;
+  }
+  a.navbar-item:hover{
+    color:pink;
+    text-shadow: 2px 2px grey;
+  }
+
+  /*Download page CSS*/
+  #div-download{
+    background-color: rgba(102, 179, 255, 0.8);
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    /*margin: 0 auto; makes the <div> tag centered*/
+  }
+  #game-image{
+    display: block;
+    margin:auto;
+    height: 500px;
+    width: 500px;
+  }
