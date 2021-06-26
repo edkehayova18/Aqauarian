@@ -6,15 +6,11 @@
 }
 body{
     min-height: 100vh;
-    display: flex;
-    align-items: center;
     justify-content: center;
     background-color: #f1f1f1;
 }
 
 .about_section{
-    background: url(pexels-lisa-691858.jpg) no-repeat left;
-    background-size: 55%;
     background-color: #aca6a6;
     overflow: hidden;
     padding: 100px 0;
@@ -65,73 +61,15 @@ body{
         padding: 60px;
     }
 }
-
-/*@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Source Code Pro', monospace;
+#navbar{
+    margin-top: 0;
+    margin-left: 0px;
 }
-img{
-    width: 100%;
-    height: auto;
-    display: block;
+.logo_nav{
+  float: left;
+  height: 60px;
+  width: 75px;
+  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: -20px;
 }
-.wrapper{
-    margin: 20px 0;
-    width: 100%;
-}
-.wrapper .cards_wrap{
-    display: flex;
-    flex-wrap: wrap;
-}
-.cards_wrap .card_item{
-    width: 20%;
-    padding: 10px;
-}
-.cards_wrap .card_inner{
-    background: #fff;
-}
-.cards_wrap .card_top{
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    padding-bottom: 0;
-}
-.cards_wrap .card_bottom{
-    padding: 15px;
-}
-.cards_wrap .card_bottom .card_category{
-    text-transform: uppercase;
-    text-align: center;
-}
-.cards_wrap .card_bottom .card_info{
-    padding: 15px;
-    margin: 10px 0;
-    border: 1px dashed #0071bc;
-}
-.cards_wrap .card_bottom .card_info .title_p{
-    color: #0071bc;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-.cards_wrap .card_bottom .card_creator{
-    text-align: center;
-}
-@media (max-width: 1024px){
-    .cards_wrap .card_item{
-        width: 33.3%;
-    }
-}
-@media (max-width: 768px){
-    .cards_wrap .card_item{
-        width: 50%;
-    }
-}
-@media (max-width: 528px){
-    .cards_wrap .card_item{
-        width: 100%;
-    }
-}*/
