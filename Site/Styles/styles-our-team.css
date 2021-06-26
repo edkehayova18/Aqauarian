@@ -77,3 +77,15 @@ img{
         width: 100%;
     }
 }
+#navbar{
+    margin-top: 0;
+    margin-left: 0px;
+}
+#logo_nav{
+  float: left;
+  height: 60px;
+  width: 75px;
+  padding-top: 10px;
+  margin-left: 5px;
+  margin-right: -20px;
+}
