@@ -144,4 +144,8 @@ body {
     text-align: center;
     width: 105%;
   }
-}
+  .team-photos{
+    width: 300px;
+    height: 300px;
+  }
+  }
