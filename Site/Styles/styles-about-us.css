@@ -11,6 +11,10 @@ body{
 }
 
 .about_section{
+    background-image: url(/Site/Images/index-background.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
     background-color: #aca6a6;
     overflow: hidden;
     padding: 100px 0;

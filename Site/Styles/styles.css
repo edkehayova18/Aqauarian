@@ -102,3 +102,6 @@ body {
     text-align: center;
   }
 }
+#index_body{
+  overflow: hidden;
+}
