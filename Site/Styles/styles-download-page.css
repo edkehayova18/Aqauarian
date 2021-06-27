@@ -1,0 +1,27 @@
+/*Download Page CSS*/
+
+#div_download{
+    background-color: rgba(102, 179, 255, 0.8);
+    width: 60%;
+    height: 100vh;
+    margin: 0 auto;
+    /*margin: 0 auto; makes the <div> tag centered*/
+}
+#game_image{
+    display: block;
+    margin:auto;
+    height: 500px;
+    width: 500px;
+}
+
+.container{
+    padding-right: auto;
+    padding-left: auto;
+}
+.container-text{
+    font-size: 20pt;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
