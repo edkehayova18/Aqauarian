@@ -18,21 +18,26 @@ body{
     padding-top: 100px;
     padding-bottom: 80px;
     height: 450px;
-    width: 750px;
+    width: 58.3vw;
 }
 
 .container{
-    margin-right: 304px;
-    margin-left: 304px;
+    margin-right: 10vw;
+    margin-left: 10vw;
     border: solid blue 2px;
     background-color: rgb(255, 243, 194);
     
 }
 .container-text{
-    font-size: 20pt;
+    font-size: 1.5vw;
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
     margin-right: 10%;
     margin-left: 10%;
 }
 
+@media screen and (max-width: 600px) {
+    .container-text{
+        font-size: 4vw;
+    }
+  }
