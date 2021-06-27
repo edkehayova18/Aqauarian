@@ -52,18 +52,6 @@ body {
   overflow: auto;
 }
 
-  /*formatting for the team name*/
-#teamname{
-  text-align: center;
-  font-size: 169px;
-  font-family: 'Roboto Mono', monospace;
-  color: aquamarine;
-  position: relative;
-  bottom: -300px;
-  margin-right: 40px;
-  float:right;
-  }
-
   /*styling for the team logo in the nabigaion bar*/
   .logo_nav{
     float: left;
