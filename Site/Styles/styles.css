@@ -42,16 +42,6 @@
 
 /*Home page CSS*/
 
-  /*this is for the index page background*/
-body {
-  background-image: url("../Images/new-index-background.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  overflow: auto;
-}
-
   /*styling for the team logo in the nabigaion bar*/
   .logo_nav{
     float: left;
