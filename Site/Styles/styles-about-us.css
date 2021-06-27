@@ -80,3 +80,9 @@ body{
 #navbar_list{
     width: 100%;
 }
+@media (max-width:600px){
+    #navbar_list{
+      display: inline-block;
+      text-align: center;
+    }
+  }

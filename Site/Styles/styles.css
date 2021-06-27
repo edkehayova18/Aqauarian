@@ -101,6 +101,9 @@ body {
     display: inline-block;
     text-align: center;
   }
+  body{
+    overflow: scroll;
+  }
 }
 #index_body{
   overflow: hidden;
