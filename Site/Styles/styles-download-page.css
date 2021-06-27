@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 /*Download Page CSS*/
-
+body{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
 #div_download{
     background-color: rgba(102, 179, 255, 0.8);
     width: 60%;
-    height: 100vh;
+    height: 400vh;
     margin: 0 auto;
     /*margin: 0 auto; makes the <div> tag centered*/
 }
@@ -15,13 +19,17 @@
 }
 
 .container{
-    padding-right: auto;
-    padding-left: auto;
+    margin-right: 304px;
+    margin-left: 304px;
+    border: solid blue 2px;
+    background-color: rgb(255, 243, 194);
+    
 }
 .container-text{
     font-size: 20pt;
-    text-align: center;
-    margin-right: 20%;
-    margin-left: 20%;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
