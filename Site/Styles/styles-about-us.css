@@ -9,13 +9,19 @@ body{
     justify-content: center;
     background-color: #f1f1f1;
 }
+body {
+    background-image: url("/Site/Images/background-no-text.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: auto;
+  }
 
 .about_section{
-    background-image: url(/Site/Images/Team-photos/team-photo.jpg);
     background-size:contain;
     background-position:center;
     background-repeat: no-repeat;
-    background-color: #aca6a6;
     overflow: hidden;
     padding: 100px 0;
 }
