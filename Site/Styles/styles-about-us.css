@@ -11,7 +11,7 @@ body{
 }
   /*this is for the page background*/
 body {
-    background-image: url("/Site/Images/background-no-text.png");
+    background-image: url("https://i.ibb.co/DP2Xdw3/background-no-text.png");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
